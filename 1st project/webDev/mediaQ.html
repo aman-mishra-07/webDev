@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Quries</title>
+    <style>
+        .box{
+            font-size: 10vh;
+            text-align: center;
+            box-sizing: border-box;
+            background-color: cyan;
+            color: black;
+            display: none;
+        }
+        @media (width>=1200px) {
+            #box4{
+                display: block;
+            }
+        }
+        
+        @media (width>768px) and (width<1200px) {
+            #box3{
+                display: block;
+            }
+        }
+        
+        @media (width>600px) and (width<=768px)  {
+            #box2{
+                display: block;
+            }
+        }
+        
+        @media (width<=600px) {
+            #box1{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">Phone</div>
+    <div class="box" id="box2">Tablet</div>
+    <div class="box" id="box3">Laptop</div>
+    <div class="box" id="box4">LED screen</div>
+    
+</body>
+</html>

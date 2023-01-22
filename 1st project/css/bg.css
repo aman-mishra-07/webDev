@@ -1,0 +1,204 @@
+html{
+    font-size: 10px;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: url("../img/camera.jpg") ;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+body ::before{
+    font-family: 'Ubuntu', sans-serif;
+    background: url("../img/camera.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left {
+    position: absolute;
+    left: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+.left img{
+    position: relative;
+    width: 100px;
+    margin: auto;
+    padding: 1px 10px;
+}
+#img{
+    position: absolute;
+    top:0px;
+    width: 100px;
+    margin: 0px auto;
+    padding: 1px 10px;
+    z-index: 2;
+
+}
+#pvclogo{
+    position: absolute;
+    top: 68px;
+    left: 26px;
+    margin: 0px auto;
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 40;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 25px auto;
+}
+
+.right {
+    position: absolute;
+    right: 21px;
+    top: 68px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.navbar {
+    display: block;
+    /* border: 2px solid blue; */
+    margin: 36px auto;
+    position: absolute;
+}
+
+.navbar ul {
+    margin: 2px;
+    padding: 3px;
+}
+
+.navbar li {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 16px;
+    padding: 1px;
+}
+.navbar li a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 8px 5px 8px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    
+}
+.navbar li a:hover, .navbar li a.active{
+    color:cyan;
+    background-color: rgb(36, 35, 35);
+    border: 2px solid rgb(95, 95, 95);
+}
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1px 1px;
+    background-color: #605858;
+    color: white;
+    padding: 5px 7px;
+    border: 2px solid grey;
+    border-radius: 16px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(75, 11, 11);
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    border: 2px solid cyan;
+    border-radius: 26px;
+    padding: 60px;
+    position: absolute;
+    width: 30%;
+    top: 200px;
+    left: 74px;
+    background-color: rgb(20, 20, 20);
+}
+.container h3{
+    margin-top: auto;
+}
+.form-group input {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    border: 2px solid rgb(185, 156, 156);
+    border-radius: 10px;
+    padding: 6px;
+    margin: 2px;
+}
+
+
+/* Services html page  */
+#ourServices{
+    position: absolute;
+    top:15vh;
+    display: inline-block;
+    align-items: center;
+    font-size: 5rem;
+    
+}
+    
+.container-flex{
+    position: absolute;
+    top:30vh;
+    display: flex;
+    height:28rem;
+    width:100%;
+    margin: 1vh;
+    padding:1vh;
+    /* border: 2px solid rgb(63, 62, 62); */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 10px;
+
+}
+.item{
+    flex-direction: row;
+    font-size: 1.5em;
+    /* border: 1px solid yellowgreen; */
+    border-radius: 20px;
+    margin: 1vh;
+    padding: 2vh;
+    height:15em;
+    width: 15em;
+    background-color: rgb(19, 17, 17);
+    filter: opacity(80%);
+    text-align: center;
+}
+.item:hover{
+    
+    height: 16em;
+    filter: opacity(100%);
+}
+#item-1{
+    text-align: center;
+}
+#item-2{
+    text-align: center;
+}
+#item-3{
+    text-align: center;
+}
+#item-4{    
+}
+#item-5{}
+
